@@ -4,7 +4,7 @@
    }
 
 body{
-    background-image: url(imagem/desertorosa.jpg);
+    background-image: url(desertorosa.jpg);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
