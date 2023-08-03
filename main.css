@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "madevoyagelight";
+    src: url(fontes/MADEVoyagerPERSONALUSE-Light.otf)
+   }
+
+body{
+    background-image: url(imagem/desertorosa.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-family: 'madevoyagelight';
+}
+
+
+
+h2{
+    font-size: 40;
+    line-height: 0px;
+    color: rgb(250, 162, 218);
+}
+
+p{
+    font-size: 12px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 35px;
+   margin-top: 5px;
+   border: 1px;
+   border-color: rgb(250, 162, 218);
+   border-radius: 10px;
+   border-style: solid;
+   padding: 15px;
+   background-color: transparent;
+   }
+
+.submit{
+    width: 70%;
+}
